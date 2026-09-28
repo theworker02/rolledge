@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/rolledge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roll validation gates for edge inputs before they hit prod.",
+  "bin": {
+    "rolledge": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/rolledge.git"
+  },
+  "homepage": "https://theworker02.github.io/rolledge/",
+  "keywords": [
+    "roll",
+    "edge",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
